@@ -1,4 +1,4 @@
 # BBG-Homework
 i am trying to do my homework
 
-##ive been finished my homework 
+## i've been finished my homework 
