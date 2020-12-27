@@ -7,7 +7,7 @@ int main() {
     printf("Bu program ekteki dosya icerisindeki sekle gore hazirlanmistir.");
     printf("Koordinatlari giriniz");
     scanf("%f %f", & x, & y);
-    if (abs(x) <= 1 && abs(y) <= 1 && abs(x) + abs(y) > 1) {
+    if (x >= 0 && pow(x, 2) + pow(y, 2) <= 1 && pow((x-2), 2) + pow(y, 2) <= 4) {
         printf("Verdiginiz Koordinatlar alanin icindedir.");
     } else {
         printf("Verdiginiz Koordinatlar alanin disindadir.");
