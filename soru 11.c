@@ -4,7 +4,7 @@
 
 int main() {
   float x, y;
-  printf("Bu program ekteki dosya icerisindeki sekle gore hazirlanmistir.");
+  printf("Bu program ekteki dosya icerisindeki sekle gore hazirlanmistir.\n");
   printf("Koordinatlari giriniz");
   scanf("%f %f", & x, & y);
   if ((x*x + y*y)<=1 && 1-abs(x)>=y && y>=0) {
